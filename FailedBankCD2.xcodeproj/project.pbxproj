@@ -15,6 +15,8 @@
 		436AAF9A1A1503F500EBFFEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 436AAF981A1503F500EBFFEC /* LaunchScreen.xib */; };
 		436AAFA61A1503F500EBFFEC /* FailedBankCD2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 436AAFA51A1503F500EBFFEC /* FailedBankCD2Tests.m */; };
 		436AAFB11A15043700EBFFEC /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 436AAFB01A15043700EBFFEC /* MasterViewController.m */; };
+		436AAFB41A150A3400EBFFEC /* FailedBankInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 436AAFB31A150A3400EBFFEC /* FailedBankInfo.m */; };
+		436AAFB71A150A4B00EBFFEC /* FailedBankDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 436AAFB61A150A4B00EBFFEC /* FailedBankDetails.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,10 @@
 		436AAFA51A1503F500EBFFEC /* FailedBankCD2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FailedBankCD2Tests.m; sourceTree = "<group>"; };
 		436AAFAF1A15043700EBFFEC /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasterViewController.h; path = ../MasterViewController.h; sourceTree = "<group>"; };
 		436AAFB01A15043700EBFFEC /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasterViewController.m; path = ../MasterViewController.m; sourceTree = "<group>"; };
+		436AAFB21A150A3400EBFFEC /* FailedBankInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBankInfo.h; sourceTree = "<group>"; };
+		436AAFB31A150A3400EBFFEC /* FailedBankInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBankInfo.m; sourceTree = "<group>"; };
+		436AAFB51A150A4B00EBFFEC /* FailedBankDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBankDetails.h; sourceTree = "<group>"; };
+		436AAFB61A150A4B00EBFFEC /* FailedBankDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBankDetails.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +97,10 @@
 				436AAF961A1503F500EBFFEC /* Images.xcassets */,
 				436AAF981A1503F500EBFFEC /* LaunchScreen.xib */,
 				436AAF8A1A1503F500EBFFEC /* FailedBankCD2.xcdatamodeld */,
+				436AAFB51A150A4B00EBFFEC /* FailedBankDetails.h */,
+				436AAFB61A150A4B00EBFFEC /* FailedBankDetails.m */,
+				436AAFB21A150A3400EBFFEC /* FailedBankInfo.h */,
+				436AAFB31A150A3400EBFFEC /* FailedBankInfo.m */,
 				436AAF831A1503F500EBFFEC /* Supporting Files */,
 			);
 			path = FailedBankCD2;
@@ -223,7 +233,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				436AAFB11A15043700EBFFEC /* MasterViewController.m in Sources */,
+				436AAFB71A150A4B00EBFFEC /* FailedBankDetails.m in Sources */,
 				436AAF891A1503F500EBFFEC /* AppDelegate.m in Sources */,
+				436AAFB41A150A3400EBFFEC /* FailedBankInfo.m in Sources */,
 				436AAF861A1503F500EBFFEC /* main.m in Sources */,
 				436AAF8C1A1503F500EBFFEC /* FailedBankCD2.xcdatamodeld in Sources */,
 			);
