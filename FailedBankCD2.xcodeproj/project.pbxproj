@@ -90,9 +90,9 @@
 			isa = PBXGroup;
 			children = (
 				436AAF871A1503F500EBFFEC /* AppDelegate.h */,
+				436AAF881A1503F500EBFFEC /* AppDelegate.m */,
 				436AAFAF1A15043700EBFFEC /* MasterViewController.h */,
 				436AAFB01A15043700EBFFEC /* MasterViewController.m */,
-				436AAF881A1503F500EBFFEC /* AppDelegate.m */,
 				436AAF931A1503F500EBFFEC /* Main.storyboard */,
 				436AAF961A1503F500EBFFEC /* Images.xcassets */,
 				436AAF981A1503F500EBFFEC /* LaunchScreen.xib */,
@@ -428,6 +428,7 @@
 				436AAFAB1A1503F500EBFFEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		436AAFAC1A1503F500EBFFEC /* Build configuration list for PBXNativeTarget "FailedBankCD2Tests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +437,7 @@
 				436AAFAE1A1503F500EBFFEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

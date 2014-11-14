@@ -12,6 +12,9 @@
 
 @implementation FailedBankDetails
 
+
+//Dynamic allows you to put things off until runtime; typically used in KV
+
 @dynamic zip;
 @dynamic closeDate;
 @dynamic updateDate;
